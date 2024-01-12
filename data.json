@@ -1,29 +1,3 @@
-const quizQuestion1 = {
-  id: 1,
-  question: "What is the capital of Denmark?",
-  options: [
-    { text: "Berlin", isCorrect: false },
-    { text: "Copenhagen", isCorrect: true },
-    { text: "Madrid", isCorrect: false },
-    { text: "Rome", isCorrect: false },
-  ],
-  explanation: "Copenhagen is the capital of Denmark.",
-};
-
-const quizQuestion2 = {
-  id: 2,
-  question: "Which element has the chemical symbol 'O'?",
-  options: [
-    { text: "Gold", isCorrect: false },
-    { text: "Oxygen", isCorrect: true },
-    { text: "Osmium
-User
-It should be in an array, and should be in json format
-ChatGPT
-Understood! Here are the quiz questions formatted as a JSON array:
-
-json
-Copy code
 [
   {
     "id": 1,
