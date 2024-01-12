@@ -1,0 +1,83 @@
+const quizQuestion1 = {
+  id: 1,
+  question: "What is the capital of Denmark?",
+  options: [
+    { text: "Berlin", isCorrect: false },
+    { text: "Copenhagen", isCorrect: true },
+    { text: "Madrid", isCorrect: false },
+    { text: "Rome", isCorrect: false },
+  ],
+  explanation: "Copenhagen is the capital of Denmark.",
+};
+
+const quizQuestion2 = {
+  id: 2,
+  question: "Which element has the chemical symbol 'O'?",
+  options: [
+    { text: "Gold", isCorrect: false },
+    { text: "Oxygen", isCorrect: true },
+    { text: "Osmium
+User
+It should be in an array, and should be in json format
+ChatGPT
+Understood! Here are the quiz questions formatted as a JSON array:
+
+json
+Copy code
+[
+  {
+    "id": 1,
+    "question": "What is the capital of Denmark?",
+    "options": [
+      { "text": "Berlin", "isCorrect": false },
+      { "text": "Copenhagen", "isCorrect": true },
+      { "text": "Madrid", "isCorrect": false },
+      { "text": "Rome", "isCorrect": false }
+    ],
+    "explanation": "Copenhagen is the capital of Denmark."
+  },
+  {
+    "id": 2,
+    "question": "Which element has the chemical symbol 'O'?",
+    "options": [
+      { "text": "Gold", "isCorrect": false },
+      { "text": "Oxygen", "isCorrect": true },
+      { "text": "Osmium", "isCorrect": false },
+      { "text": "Olivine", "isCorrect": false }
+    ],
+    "explanation": "Oxygen has the chemical symbol 'O'."
+  },
+  {
+    "id": 3,
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": [
+      { "text": "William Shakespeare", "isCorrect": true },
+      { "text": "Jane Austen", "isCorrect": false },
+      { "text": "Charles Dickens", "isCorrect": false },
+      { "text": "Leo Tolstoy", "isCorrect": false }
+    ],
+    "explanation": "William Shakespeare is the author of 'Romeo and Juliet'."
+  },
+  {
+    "id": 4,
+    "question": "What is the largest planet in our Solar System?",
+    "options": [
+      { "text": "Earth", "isCorrect": false },
+      { "text": "Jupiter", "isCorrect": true },
+      { "text": "Mars", "isCorrect": false },
+      { "text": "Saturn", "isCorrect": false }
+    ],
+    "explanation": "Jupiter is the largest planet in our Solar System."
+  },
+  {
+    "id": 5,
+    "question": "In what year did the Titanic sink?",
+    "options": [
+      { "text": "1912", "isCorrect": true },
+      { "text": "1905", "isCorrect": false },
+      { "text": "1918", "isCorrect": false },
+      { "text": "1923", "isCorrect": false }
+    ],
+    "explanation": "The Titanic sank in 1912."
+  }
+]
